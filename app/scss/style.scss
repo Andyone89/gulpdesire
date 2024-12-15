@@ -370,7 +370,7 @@
 
 .new-collection {
     text-align: center;
-    padding: 45px 0 105px;
+    padding: 45px 0 35px;
 
     &__title {
         font-size: 35px;
@@ -403,6 +403,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 30px;
+    padding-bottom: 70px;
 
     &__item {
         position: relative;
@@ -749,7 +750,7 @@
         left: 0;
         right: 0;
         background-image: url(../images/about/inspiration-bg.jpg);
-        height: 414px;
+        height: 362px;
         z-index: -1;
     }
 
@@ -805,5 +806,23 @@
         padding-bottom: 14px;
         border-bottom: 2px solid #fff;
         border-radius: 4px;
+    }
+
+    &__line {
+        height: 2px;
+        border-radius: 4px;
+        background-color: $title;
+        margin-top: -2px;
+    }
+}
+
+.partners{
+    padding: 16px 0 60px;
+    &__items{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    &__item{
+        margin: 0 auto;
     }
 }
