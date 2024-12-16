@@ -87,26 +87,6 @@
         min-width: 476px;
     }
 
-    &__info-email {
-        font-weight: 600;
-        font-size: 14px;
-        color: $title;
-        margin-bottom: 22px;
-        padding-left: 30px;
-        display: inline-block;
-        position: relative;
-
-        &::before {
-            content: '';
-            background-image: url(../images/footer/envelope.svg);
-            position: absolute;
-            left: 0;
-            top: 8px;
-            width: 16px;
-            height: 12px;
-        }
-    }
-
     &__form {
         display: flex;
     }
@@ -117,8 +97,6 @@
         background-color: transparent;
         border: 1px solid rgba($title, .7);
         width: 100%;
-
-
         &::placeholder {
             font-family: "Open Sans", sans-serif;
             font-weight: 400;
