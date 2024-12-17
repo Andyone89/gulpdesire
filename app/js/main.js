@@ -16,7 +16,7 @@ $(function () {
 
     $('.contact-slider').slick({
         slidesToShow: 10,
-        slidesTosScroll: 10,
+        slidesToScroll: 10,
         dots: true,
         arrows: false,
     });
