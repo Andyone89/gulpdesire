@@ -27,6 +27,15 @@
       width: 380px;
     }
   }
+  .gallery{
+    &__items{
+      grid-gap: 10px;
+    }
+    &__btn{
+      margin: 0;
+      padding: 6px 10px;
+    }
+  }
 }
 
 @media (max-width: 840px) {
@@ -162,8 +171,20 @@
     }
     &__items-box{
       border: none;
+      flex-wrap: wrap;
     }
-  }
+    &__item--measuring{
+      margin-left: 0;
+      padding-top: 0;
+      padding-bottom: 38px;
+    }
+    &__item--production{
+      margin-left: 0;
+      order: 1;
+    }
+    &__item{
+      width: 100%;
+    }  
 }
 
 @media (max-width: 540px) {
@@ -236,6 +257,12 @@
     font-size: 28px;
     line-height: 36px;
   }
+  .works-path{
+    &__item-title{
+      font-size: 16px;
+      line-height: 27px;
+    }
+  }
 }
 
 @media (max-width: 375px) {
@@ -258,4 +285,5 @@
       margin-top: 10px;
     }
   }
+ }
 }

@@ -10,6 +10,10 @@ $(function () {
     $('.header__btn-menu').on('click', function () {
         $('.menu').toggleClass('menu--open');
     })
+
+    if($(window).width () < 651){
+        $('.works-path__item--measuring').appendTo($('.works-path__items--box'));
+    }
   
 
     $('.top__slider').slick({
@@ -30,6 +34,8 @@ $(function () {
         prevArrow: '<button type="button" class="article-slider__arrow article-slider__arrowleft"><img src="images/blog/arrow-slide-left.svg" alt="arrow left"></button>',
         nextArrow: '<button type="button" class="article-slider__arrow article-slider__arrowright"><img src="images/blog/arrow-slide-right.svg" alt="arrow right"></button>',
     });
+
+
 
 
 
