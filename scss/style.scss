@@ -83,7 +83,8 @@
 
     &__info-text {
         margin-bottom: 16px;
-        min-width: 476px;
+        max-width: 476px;
+      
     }
 
     &__form {
