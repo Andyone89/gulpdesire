@@ -20,10 +20,12 @@
     "gulp-uglify-es": "^2.0.0",
     "jquery": "^3.5.1",
     "mixitup": "^3.3.2",
-    "sass": "^1.58.0",
+    "sass": "^1.83.0",
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "@fancyapps/ui": "^5.0.36"
+    "@fancyapps/ui": "^5.0.36",
+    "media": "^0.2.1",
+    "npm": "^11.0.0"
   }
 }
